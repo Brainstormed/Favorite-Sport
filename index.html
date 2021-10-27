@@ -2,7 +2,13 @@
 <html>
     <head>
         <title>Favorite Sport</title>
+        <link href="impact.ttf" rel="stylesheet" type="text/css">
         <style>
+            :root {
+                --nav-home-margin: 180px;
+                --nav-contact-margin: 150px;
+            }
+
             body {
                 background: linear-gradient(35deg, #f79b9b, #79f8f8);
             }
@@ -27,7 +33,7 @@
                 border-color: black;
                 border-style: double;
                 border-width: 5px;
-                margin-bottom: 20px;
+                margin-bottom: 15px;
                 font-family: Arial, Helvetica, sans-serif;
                 border-radius: 10px;
                 box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
@@ -38,7 +44,7 @@
                 border-color: black;
                 border-style: double;
                 border-width: 5px;
-                margin-bottom: 20px;
+                margin-bottom: 15px;
                 font-family: Arial, Helvetica, sans-serif;
                 border-radius: 10px;
                 box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
@@ -118,6 +124,8 @@
             }
 
             .url-box {
+                position: absolute;
+                bottom: -290px;
                 margin-top: 1em;
                 margin-left: 0.5em;
             }
@@ -159,7 +167,7 @@
                 z-index: 100;
             }
 
-            a:active {
+            a:link {
                 color: rgb(255, 255, 255);
             }
 
@@ -175,16 +183,17 @@
                 color: teal;
             }
 
+            #nav-home {
+                margin-right: var(--nav-home-margin);
+                float: left;
+            }
+
             #nav-contacts {
-                margin-left: 150px;
+                margin-left: var(--nav-contact-margin);
                 position: absolute;
                 right: 100px;
             }
 
-            #nav-home {
-                margin-right: 180px;
-                float: left;
-            }
 
             #footer {
                 position: absolute;
