@@ -1,0 +1,202 @@
+:root {
+    --nav-home-margin: 180px;
+    --nav-contact-margin: 150px;
+}
+
+body {
+    background: linear-gradient(35deg, #f79b9b, #79f8f8);
+}
+
+[type='radio'] {
+    margin: 0px 20px 20px 20px;
+    padding: 50px 20px 20px 20px;
+    background-color: cyan;
+    text-align: justify;
+}
+
+[type='radio']:hover {
+    margin: 0px 20px 20px 20px;
+    padding: 50px 20px 20px 20px;
+    background-color: cyan;
+    text-align: justify;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.yellow-radiobtn-box {
+    background-color: gold;
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.yellow-radiobtn-box:hover {
+    background-color: gold;
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.005);
+    font-weight: 550;
+}
+
+.turquoise-checkbox-box {
+    background-color: paleturquoise;
+    border-color: black;
+    border-style:double;
+    border-width: 5px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.turquoise-checkbox-box:hover {
+    background-color: paleturquoise;
+    border-color: black;
+    border-style:double;
+    border-width: 5px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.005);
+    font-weight: 550;
+}
+
+.submit-button {
+    margin: 0px 0px 10px 20px;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: tomato;
+    background-color: navajowhite;
+}
+
+.submit-button:hover {
+    margin: 0px 0px 10px 20px;
+    font-size: 1em;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: tomato;
+    background-color: rgb(247, 202, 134);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+[type='checkbox'] {
+    margin: 0px 20px 20px 20px;
+    padding: 50px 20px 20px 20px;
+    background-color: cyan;
+}
+
+[type='checkbox']:hover {
+    margin: 0px 20px 20px 20px;
+    padding: 50px 20px 20px 20px;
+    background-color: cyan;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+#heading {
+    background-color: springgreen;
+    margin: 2cm 1cm 1cm 1cm;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    border: solid 2mm #eb61f0;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.heading-padding {
+    padding-left: 5mm;
+}
+
+.url-box {
+    position: relative;
+    margin-top: 1em;
+    margin-left: 0.5em;
+}
+
+.race-car-img {
+    width: 500px;
+    border: solid 5px rebeccapurple;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: block;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.race-car-img:hover {
+    width: 500px;
+    border: solid 5px rgb(153, 0, 255);
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: block;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2), 0px 6px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.005);
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255) !important;
+    padding: 5px 20px 10px 100px;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    z-index: 100;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: turquoise;
+}
+
+a:focus {
+    color: teal;
+}
+
+#nav-home {
+    margin-right: var(--nav-home-margin);
+    float: left;
+}
+
+#nav-contacts {
+    margin-left: var(--nav-contact-margin);
+    position: absolute;
+    right: 100px;
+}
+
+
+#footer {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    margin-top: 20px;
+    background-color:darkcyan;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    height: 25px;
+    padding-left: 10px;
+}
